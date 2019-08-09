@@ -37,7 +37,7 @@ On the Homestead Virtual Machine.
  - `exit`. We get out from our Virtual Machine.
  - **Hostname Resolution**. File C:\Windows\System32\drivers\etc\hosts.
  - Add to this file: `192.168.10.10  homestead.test`
- - Write to the URL bar on the browser: `homestead.test`
+ - Navigate to: `http://homestead.test`
  - Done.
  
  For more details go [here](https://laravel.com/docs/5.8/homestead).
