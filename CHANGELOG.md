@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### [v0.1.0; 09-08-2019]
 
 #### Added
+- 10/08/2019: API Call
+- 10/08/2019: Code Structure
 - 09/08/2019: Add CHANGELOG
 - 09/08/2019: README.md updated
 - 09/08/2019: Create the project

@@ -33,7 +33,7 @@ On the Homestead Virtual Machine.
  - `git clone git@github.com:estevegf/laravel.git laravel-project`
  - `cd laravel-project`
  - `cp .env.example .env`
- - `npm install`
+ - `composer install`
  - `exit`. We get out from our Virtual Machine.
  - **Hostname Resolution**. File C:\Windows\System32\drivers\etc\hosts.
  - Add to this file: `192.168.10.10  homestead.test`
@@ -47,3 +47,7 @@ On the Homestead Virtual Machine.
 - Run on the Homestead folder `vagrant up` for a dev server. 
 - Navigate to: `http://homestead.test`
 - To reload any change: `ctrl + shift + r`
+
+## Commands
+
+- Create a Controller: `php artisan make:controller EducationController`
