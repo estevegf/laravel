@@ -3,5 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
-    <h1>HOME</h1>
+    <div class="bar-margin container">
+        <h1>HOME</h1>
+    </div>
 @endsection
