@@ -3,7 +3,10 @@
 @section('title', 'Home')
 
 @section('content')
-    <div class="bar-margin container">
-        <h1>HOME</h1>
+
+    @include('common.banner', ['imageUrl' => $welcomeBanner])
+
+    <div class="container">
+        <h1>Hello Laravel</h1>
     </div>
 @endsection

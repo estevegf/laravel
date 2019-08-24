@@ -11,6 +11,5 @@
 |
 */
 
-Route::view('/', 'welcome')->name('home');
-
+Route::get('/', 'WelcomeController')->name('home');
 Route::get('/education', 'EducationController')->name('education');

@@ -20,8 +20,12 @@
 </html>
 
 <style>
+    body {
+        margin: 0;
+    }
+
     .bar-margin {
-        margin-top: 55px;
+        margin-top: 50px;
     }
 
      @media (min-width: 600px) {

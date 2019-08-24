@@ -25,6 +25,9 @@ class EducationController extends Controller
 
         $data = json_decode($response->getBody()->getContents());
 
-        return view('education', ['stars' => $data->stargazers_count]);
+        return view('education',
+            ['stars' => $data->stargazers_count,
+            'educationBanner' => "/images/banner.svg"]
+        );
     }
 }
