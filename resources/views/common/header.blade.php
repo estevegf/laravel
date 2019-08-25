@@ -34,18 +34,18 @@
         margin-right: 1em;
     }
 
-    ul {
+    nav ul {
         display: flex;
         width: auto;
         margin-left: auto;
         list-style: none;
     }
 
-    li {
+    nav li {
         margin: 0 1em;
     }
 
-    li a {
+    nav li a {
         color: black;
         text-decoration: none;
     }

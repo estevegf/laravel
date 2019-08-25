@@ -5,14 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>@yield('title', 'Esteve G F')</title>
+        <link rel="icon" type="image/x-icon" href="/icono.ico">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="prelaod" as="style">
 
     </head>
     <body>
-
-        @include('common.header')
+        <header>
+            @include('common.header')
+        </header>
 
         @yield('content')
 
@@ -21,28 +23,34 @@
 
 <style>
     body {
-        margin: 0;
+      margin:0;
     }
 
     .bar-margin {
-        margin-top: 50px;
+      margin-top: 50px;
     }
 
-     @media (min-width: 600px) {
-        .container {
-            padding: 0 4em!important;
-        }
+    @media (min-width: 600px) {
+      .container {
+        padding: 0 4em!important;
+      }
     }
 
     @media (min-width: 800px) {
-        .container {
-            padding: 0 8em!important;
-        }
+      .container {
+        padding: 0 8em!important;
+      }
     }
 
-    @media (min-width: 1100px) {
-        .container {
-            padding: 0 12em!important;
-        }
+    @media (min-width: 1300px) {
+      .container {
+        padding: 0 14em!important;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .l-6 {
+        width: 49.75%!important;
+      }
     }
 </style>
