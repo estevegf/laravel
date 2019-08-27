@@ -7,9 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ---
 
-### [v0.1.0; 09-08-2019]
+### [v0.1.0; 27-08-2019]
 
 #### Added
+- 27/08/2019: Education page
+- 27/08/2019: New component card
 - 23/08/2019: Home page
 - 23/08/2019: Favicon
 - 24/08/2019: New component banner

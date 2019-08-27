@@ -18,15 +18,14 @@ class EducationController extends Controller
 
         $client = new Client([
             // Base URI is used with relative requests
-            'base_uri' => 'https://api.github.com/',
+            'base_uri' => 'https://us-central1-tfg2019-ae3f8.cloudfunctions.net/api/'
         ]);
 
-        $response = $client->request('GET', 'repos/laravel/laravel');
-
+        $response = $client->request('GET', 'education');
         $data = json_decode($response->getBody()->getContents());
 
         return view('education',
-            ['stars' => $data->stargazers_count,
+            ['education' => $data,
             'educationBanner' => "/images/banner.svg"]
         );
     }
