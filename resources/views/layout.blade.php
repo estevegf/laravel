@@ -31,7 +31,7 @@
     }
 
     .container {
-      padding: 1em;
+      padding: 0 1em;
     }
 
     @media (min-width: 600px) {
@@ -58,7 +58,7 @@
       }
     }
 
-    @media (min-width: 500px) {
+    @media (min-width: 501px) {
       .s-6 {
         width: 50%!important;
       }
