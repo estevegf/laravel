@@ -1,13 +1,13 @@
 @extends('layout')
 
-@section('title', 'Education')
+@section('title', 'Education - Laravel')
 
 @section('content')
 
     @include('common.banner', ['imageUrl' => $educationBanner])
 
     <div class="container">
-        <h2>Education</h2>
+        <h1>Education</h1>
         <section class="center">
             @foreach ($education as $edu)
                 @include('components.card', ['education' => $edu])

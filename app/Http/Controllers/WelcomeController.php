@@ -15,6 +15,6 @@ class WelcomeController extends Controller
      */
     public function __invoke()
     {
-        return view('welcome', ['welcomeBanner' => "/images/banner.svg"]);
+        return view('welcome', ['welcomeBanner' => "/images/banner_home.jpg"]);
     }
 }

@@ -6,7 +6,8 @@
     </div>
     <ul>
         <li>
-            <a class="link-hover" href=" {{ route('education') }} ">EDUCATION</a>
+            <a class="link-hover" href=" {{ route('education') }} ">
+                <img class="icon-nav" src="/images/icono-education.svg" height="18" alt="education"/>EDUCATION</a>
         </li>
     </ul>
 </nav>
@@ -32,6 +33,7 @@
     .nav-logo {
         display: inline-block;
         margin-right: 1em;
+        padding: 6px 0 2px 0;
     }
 
     nav ul {
@@ -50,7 +52,15 @@
         text-decoration: none;
     }
 
+    .icon-nav {
+        margin-right: 5px;
+     }
+
+    .link-hover {
+        display: flex;
+    }
+
     .link-hover:hover {
-        color: gray;
+        opacity: 0.6;
     }
 </style>

@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('title', 'Esteve G F')</title>
+        <title>@yield('title', 'Esteve G F - Laravel')</title>
         <link rel="icon" type="image/x-icon" href="/icono.ico">
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="prelaod" as="style">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
     </head>
     <body>
@@ -24,6 +24,7 @@
 <style>
     body {
       margin:0;
+      font-family: 'Montserrat', sans-serif;
     }
 
     .bar-margin {
@@ -32,11 +33,13 @@
 
     .container {
       padding: 0 1em;
+      font-size: small;
     }
 
     @media (min-width: 600px) {
       .container {
         padding: 0 4em!important;
+        font-size: medium;
       }
     }
 
@@ -49,6 +52,7 @@
     @media (min-width: 1300px) {
       .container {
         padding: 0 14em!important;
+        font-size: large;
       }
     }
 
