@@ -51,3 +51,14 @@ On the Homestead Virtual Machine.
 ## Commands
 
 - Create a Controller: `php artisan make:controller EducationController`
+
+## Deployment
+
+- `git clone git@github.com:estevegf/laravel.git laravel-project`
+- `cd project`
+- `cp .env.example .env`
+- `composer install`
+- `php artisan key:generate`
+- `php artisan cache:clear`
+- `php artisan config:cache`
+- `php artisan route:cache`
