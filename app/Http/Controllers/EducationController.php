@@ -26,7 +26,7 @@ class EducationController extends Controller
 
         return view('education',
             ['education' => $data,
-            'educationBanner' => "/images/banner_education.jpg"]
+            'educationBanner' => "/images/banner_education-1920.webp"]
         );
     }
 }

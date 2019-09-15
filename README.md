@@ -52,13 +52,23 @@ On the Homestead Virtual Machine.
 
 - Create a Controller: `php artisan make:controller EducationController`
 
-## Deployment
+## Deployment Apache & NGINX
 
-- `git clone git@github.com:estevegf/laravel.git laravel-project`
-- `cd project`
+- `cd /var/www`
+- `sudo chown -R www-data:www-data <folder-domain>/`
+- `cd /<folder-domain>`
+- `git clone https://github.com/estevegf/laravel.git laravel-project`
+- `cd laravel-project`
 - `cp .env.example .env`
-- `composer install`
-- `php artisan key:generate`
-- `php artisan cache:clear`
-- `php artisan config:cache`
-- `php artisan route:cache`
+- `nano .env`
+
+  ```
+    APP_ENV=production
+    APP_DEBUG=false
+    APP_URL=http://example.com
+  ```
+- `sudo composer install`
+- `sudo php artisan key:generate`
+- `sudo php artisan cache:clear`
+- `sudo php artisan config:cache`
+- `sudo php artisan route:cache`

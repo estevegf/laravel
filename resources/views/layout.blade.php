@@ -8,7 +8,7 @@
         <link rel="icon" type="image/x-icon" href="/icono.ico">
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="preload" as="style">
 
     </head>
     <body>
@@ -17,6 +17,8 @@
         </header>
 
         @yield('content')
+
+        @yield('scripts')
 
     </body>
 </html>

@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### [v0.1.0; 27-08-2019]
 
 #### Added
+- 15/09/2019: Lazy Load images
 - 10/09/2019: Deployment information
 - 29/08/2019: Responsive layout
 - 29/08/2019: Added Images
